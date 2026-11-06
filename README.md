@@ -77,3 +77,8 @@ Custom roles grant permissions per module and action.
 ![Movements list, dark mode](screenshots/17-movements-list-dark.png)
 ![Movement inspection form, dark mode](screenshots/18-movement-inspection-form-dark.png)
 ![Fleet list, dark mode](screenshots/19-fleet-list-dark.png)
+
+## License
+
+© 2026 George D Larentzakis. All rights reserved.
+Shared for portfolio and evaluation purposes only, see [LICENSE](LICENSE).
