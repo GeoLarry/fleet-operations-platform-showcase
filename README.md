@@ -1,6 +1,6 @@
-# Cartrace — screenshots
+# CarTrace — screenshots
 
-Cartrace is a fleet and vehicle-movement management app for car rental companies. Staff record vehicle pickups and deliveries with a full inspection: fuel and mileage, accessories, damages marked on a vehicle diagram, and the customer's signature. Each movement produces a PDF report in two languages.
+CarTrace is a fleet and vehicle-movement management app for car rental companies. Staff record vehicle pickups and deliveries with a full inspection: fuel and mileage, accessories, damages marked on a vehicle diagram, and the customer's signature. Each movement produces a PDF report in two languages.
 
 The source code is private. This repository only holds screenshots of the running app. All data shown is fake, generated with Bogus.
 
