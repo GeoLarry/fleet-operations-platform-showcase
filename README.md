@@ -1,17 +1,25 @@
-# CarTrace — screenshots
+# Fleet operations platform — screenshots
 
-CarTrace is a fleet and vehicle-movement management app for car rental companies. Staff record vehicle pickups and deliveries with a full inspection: fuel and mileage, accessories, damages marked on a vehicle diagram, and the customer's signature. Each movement produces a PDF report in two languages.
+A fleet operations platform for leasing and rental companies (own product). Staff record vehicle deliveries and pickups with a full inspection: an interactive car diagram for marking damages, accessories, fuel and mileage, and the customer's e-signature. Each movement produces a PDF report and a notification.
 
-The source code is private. This repository only holds screenshots of the running app. All data shown is fake, generated with Bogus.
+This is a private product, and its source code is not public. This repository only holds screenshots of the running app, with fake demo data. A demo is available on request.
+
+## Features
+
+- Vehicle delivery and pickup with an interactive car diagram for marking damages
+- Customer e-signature, PDF movement reports with notifications
+- Damage lifecycle: active or repaired, billable or not, with history kept on past movements
+- Fleet status views, add and edit vehicles
+- User, role and permission administration
+- Greek/English UI, dark mode, draft autosave
 
 ## Tech stack
 
 | Part | Technologies |
 |---|---|
-| Frontend | Angular 16 (NgModules, Angular Material), light and dark theme, Greek and English UI |
-| Backend | .NET 10 Minimal API, clean architecture (Core / Infrastructure / API), JWT, permission-based RBAC |
-| Reports | FastReport Open Source (PDF), SkiaSharp for the damage diagram |
-| Demo data | Bogus |
+| Frontend | Angular, Angular Material, Greek/English i18n, dark mode |
+| Backend | .NET 10 Minimal API, JWT, permission-based authorization, Dapper over SQL Server |
+| Reports | Server-side PDF generation |
 
 ## Movements
 
@@ -23,7 +31,7 @@ The inspection form: general information, damages, accessories, notes and the cu
 
 ![Movement inspection form](screenshots/02-movement-inspection-form.png)
 
-Damages are marked on a diagram of the vehicle and listed with their type, severity and billing (chargeable or not).
+Damages are marked on a diagram of the vehicle and listed with their type, severity and billing.
 
 ![Damage diagram](screenshots/03-damage-diagram.png)
 
@@ -64,8 +72,8 @@ Custom roles grant permissions per module and action.
 ![Roles](screenshots/15-roles.png)
 ![Role permissions](screenshots/16-role-permissions.png)
 
-## Dark theme
+## Dark mode
 
-![Movements list, dark theme](screenshots/17-movements-list-dark.png)
-![Movement inspection form, dark theme](screenshots/18-movement-inspection-form-dark.png)
-![Fleet list, dark theme](screenshots/19-fleet-list-dark.png)
+![Movements list, dark mode](screenshots/17-movements-list-dark.png)
+![Movement inspection form, dark mode](screenshots/18-movement-inspection-form-dark.png)
+![Fleet list, dark mode](screenshots/19-fleet-list-dark.png)
