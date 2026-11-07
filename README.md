@@ -21,6 +21,12 @@ This is a private product, and its source code is not public. This repository on
 | Backend | .NET 10 Minimal API, JWT, permission-based authorization, Dapper over SQL Server |
 | Reports | Server-side PDF generation |
 
+## Sign in
+
+Staff sign in with accounts created by an administrator; there is no public sign-up.
+
+![Sign in](screenshots/00-login.png)
+
 ## Movements
 
 Movements list with search by license plate and date range. The actions on each row depend on the movement's state: open movements can be edited or deleted, completed ones can only be viewed or printed.
@@ -77,6 +83,7 @@ Custom roles grant permissions per module and action.
 ![Movements list, dark mode](screenshots/17-movements-list-dark.png)
 ![Movement inspection form, dark mode](screenshots/18-movement-inspection-form-dark.png)
 ![Fleet list, dark mode](screenshots/19-fleet-list-dark.png)
+![Sign in, dark mode](screenshots/20-login-dark.png)
 
 ## License
 
